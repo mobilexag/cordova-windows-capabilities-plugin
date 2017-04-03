@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="de.mobilexag.mip.capabilities.plugin"
+  version="1.0.0"
+>
+  <name>CapabilitiesPlugin</name>
+  <description>Adds necessary Windows UWP Capabilities to CrossMIP</description>
+  <license>UNLICENSED</license>
+  <platform name="windows">
+    <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+      <Capability Name="privateNetworkClientServer" />
+    </config-file>
+  </platform>
+</plugin>
