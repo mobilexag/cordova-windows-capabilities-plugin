@@ -1,0 +1,11 @@
+{
+  "name": "cordova-windows-capabilities-plugin",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-windows-capabilities-plugin",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "description": "Adds necessary Windows UWP Capabilities to CrossMIP"
+}
